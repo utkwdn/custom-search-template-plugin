@@ -1,6 +1,6 @@
 <?php
-$query_title = do_blocks('<!-- wp:query-title {"type":"search","fontSize":"large"} /-->');
-$query_body = do_blocks('<!-- wp:pattern {"slug":"utkwds/query"} /-->');
+$query_title = do_blocks( '<!-- wp:query-title {"type":"search","fontSize":"large"} /-->' );
+$query_body  = do_blocks( '<!-- wp:pattern {"slug":"utkwds/query"} /-->' );
 
 get_header();
 ?>
@@ -16,7 +16,7 @@ get_header();
 	</div>
 	<div class="nav nav-tabs tab-content main-tabs-content search-tab" id="myTabContent">
 		<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab">
-			<?php get_template_part( 'classic-template-parts/gcse-search', 'gcse-search', array() ) ?>
+			<?php get_template_part( 'classic-template-parts/gcse-search', 'gcse-search', array() ); ?>
 		</div>
 	</div>
 </main>

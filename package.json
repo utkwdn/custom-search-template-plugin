@@ -1,0 +1,8 @@
+{
+	"name": "custom-search-template-plugin",
+	"version": "1.0.0",
+	"description": "Update search page template to remove site search and tabs",
+	"author": "The University of Tennessee, Knoxville",
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://github.com/utkwdn/custom-search-template-plugin"
+}
