@@ -1,6 +1,5 @@
 <?php
-$query_title = do_blocks( '<!-- wp:query-title {"type":"search","fontSize":"large"} /-->' );
-$query_body  = do_blocks( '<!-- wp:pattern {"slug":"utkwds/query"} /-->' );
+$query_body = do_blocks( '<!-- wp:pattern {"slug":"utkwds/query"} /-->' );
 
 get_header();
 ?>
@@ -11,7 +10,7 @@ get_header();
 
 <main class="wp-block-group site-content has-global-padding is-layout-constrained" style="margin-top:0;padding-top:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small)" id="wp--skip-link--target">
 	<div class="wp-block-group is-layout-flow" style="margin-bottom:var(--wp--preset--spacing--small)">
-		<?php echo $query_title; ?>
+		<h1 class="wp-block-post-title">SEARCH</h1>
 		</div>
 	</div>
 	<div class="nav nav-tabs tab-content main-tabs-content search-tab" id="myTabContent">

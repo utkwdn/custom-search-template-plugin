@@ -4,14 +4,16 @@
  * Description:  Update search page template to remove site search and tabs
  * Plugin URI:   https://github.com/utkwdn/custom-search-template-plugin
  * Author:       The University of Tennessee, Knoxville
- * Version:      1.0.0
+ * Version:      0.1.0
  * Text Domain:  custom-search-template
  * Domain Path:  /languages
  * License:      GPL v2 or later
  * License URI:  https://www.gnu.org/licenses/gpl-2.0.txt
+ *
+ * @package CustomSearchTemplate
  **/
 
-// Exit if accessed directly
+// Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
